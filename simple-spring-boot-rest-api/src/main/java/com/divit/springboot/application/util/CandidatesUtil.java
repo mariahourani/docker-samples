@@ -11,18 +11,13 @@ public final class CandidatesUtil {
 	}
 
 	/**
-	 * 
 	 * Method to help us get dummy data
 	 * 
 	 * @return list of candidates
 	 */
 	public static List<Candidate> getCandidates() {
 		var candidateList = List.of(
-				new Candidate("John", 2, Set.of("java", "c#", "c++", "golang")),
-				new Candidate("David", 1, Set.of("javascript", "c++")),
-				new Candidate("Diana", 4, Set.of("java", "python")),
-				new Candidate("June", 2, Set.of("ruby", "aws", "docker")),
-				new Candidate("April", 3, Set.of("python", "Erlang", "docker")));
+				new Candidate("Maria", 222310, Set.of("javascript", "java")));
 
 		return candidateList;
 	}
